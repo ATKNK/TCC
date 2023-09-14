@@ -11,9 +11,44 @@
 
 <body>
     <h1>EuroXX Map</h1>
-    <div>
-        <object data="maps/1914.svg" type="image/svg+xml"></object>
+    <div id="mapa">
+
+        <div id="mapa1914">
+            <object data="maps/1914.svg" type="image/svg+xml"></object>
+        </div>
+        <div id="mapa1920" style="display: none;">
+            <object data="maps/1920.svg" type="image/svg+xml"></object>
+        </div>
+
+        <div>
+            <button id="botaoAlternar">
+            Alterar Mapa
+            </button>
+
+            <button onclick="window.location.href='index.html'">
+            Voltar
+            </button>
+        </div>
     </div>
+
+    <script>
+        function alternarMapas() {
+            var mapa1914 = document.getElementById("mapa1914");
+            var mapa1920 = document.getElementById("mapa1920");
+
+            if (mapa1914.style.display === "none") {
+                mapa1914.style.display = "block";
+                mapa1920.style.display = "none";
+            } else {
+                mapa1914.style.display = "none";
+                mapa1920.style.display = "block";
+            }
+        }
+
+        var botaoAlternar = document.getElementById("botaoAlternar");
+        botaoAlternar.addEventListener("click", alternarMapas);
+    </script>
+
 </body>
 
 </html>

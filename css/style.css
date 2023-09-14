@@ -8,11 +8,19 @@ h1 {
     font-family: 'Courier New', Courier, monospace;
 }
 
-div {
+#mapa {
     text-align: center;
     border: solid;
 }
 
-#Luxemburgo {
-    fill: aqua;
+#mapa1914 {
+    text-align: center;
+}
+
+#mapa1920 {
+    text-align: center;
+}
+
+div {
+    text-align: right;
 }
