@@ -1,5 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
-    background-color: gray;
+    background-color: whitesmoke;
     font-size: large;
 }
 
@@ -7,18 +12,32 @@ h1 {
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
 }
-
+#main {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+   
+}
 #mapa {
+    justify-content: end;
     text-align: center;
     border: solid;
+    height: 100px;
+    display: block;
+    background-color: rgb(112, 128, 144)
 }
 
 #mapa1914 {
     text-align: center;
+    display: block;
+    transition: all 4s ease-in-out;
+    border-bottom: -100;
 }
 
 #mapa1920 {
     text-align: center;
+    display: block;
+    transition: all 4s ease-in-out;
 }
 
 div {
