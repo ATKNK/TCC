@@ -1,55 +1,56 @@
 <!DOCTYPE html>
-<html lang="pt- br">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EuroXX Map</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/alternarmapas.js"></script>
 </head>
-
 
 <body>
     <h1>EuroXX Map</h1>
     <div id="main">
         <div id="mapa">
-            <div id="mapa1914">
+            <div id="mapa1914" style="display: block;">
                 <object data="maps/1914.svg" type="image/svg+xml"></object>
             </div>
             <div id="mapa1920" style="display: none;">
                 <object data="maps/1920.svg" type="image/svg+xml"></object>
             </div>
+            <div id="mapa1936" style="display: none;">
+                <object data="maps/1936.svg" type="image/svg+xml"></object>
+            </div>
+        </div>
+        <div id="PainelLateral">
+
+            <div id="DivAno">
+                <h2><span id="Ano">1914</span></h2>
+            </div>
+            <div id="Info">
+                <div id="DivBandeira">
+                    <img src="flags/REINOUNIDO.png" width="200px">
+                </div>
+                <h2><span id="Nome_Pais">Reino Unido</span></h2>
+                <p>Governo: <span id="Governo_Pais">Monarquia Parlamentarista</span>
+                    <br> Capital: <span id="Capital_Pais">Londres</span>
+                </p>
+
+            </div>
+            <div id="Botoes">
+                <button id="botao1914">1914 </button>
+                <button id="botao1920">1920 </button>
+                <button id="botao1936">1936 </button>
+                <button onclick="window.location.href='index.html'">Voltar</button>
+            </div>
         </div>
     </div>
 
-    <div>
-        <button id="botaoAlternar">
-        Alterar Mapa
-        </button>
 
-        <button onclick="window.location.href='index.html'">
-        Voltar
-        </button>
+
+
     </div>
-
-    <script>
-        function alternarMapas() {
-            var mapa1914 = document.getElementById("mapa1914");
-            var mapa1920 = document.getElementById("mapa1920");
-
-            if (mapa1914.style.display === "none") {
-                mapa1914.style.display = "block";
-                mapa1920.style.display = "none";
-            } else {
-                mapa1914.style.display = "none";
-                mapa1920.style.display = "block";
-            }
-        }
-
-        var botaoAlternar = document.getElementById("botaoAlternar");
-        botaoAlternar.addEventListener("click", alternarMapas);
-    </script>
-
 </body>
 
 </html>
