@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EuroXX Map</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/nacoes.css">
     <script src="js/alternarmapas.js"></script>
+    <script src="js/exibirnacoes.js"></script>
 </head>
 
 <body>
@@ -30,27 +32,28 @@
             </div>
             <div id="Info">
                 <div id="DivBandeira">
-                    <img src="flags/REINOUNIDO.png" width="200px">
+                    <img src="flags/REINOUNIDO.png" width="200px" id="bandeira">
                 </div>
                 <h2><span id="Nome_Pais">Reino Unido</span></h2>
                 <p>Governo: <span id="Governo_Pais">Monarquia Parlamentarista</span>
                     <br> Capital: <span id="Capital_Pais">Londres</span>
                 </p>
+                <button id="trocarAlemanha">Alemanha</button>
+                <button id="trocarReinoUnido">Reino Unido</button>
+            </div>
 
-            </div>
-            <div id="Botoes">
-                <button id="botao1914">1914 </button>
-                <button id="botao1920">1920 </button>
-                <button id="botao1936">1936 </button>
-                <button onclick="window.location.href='index.html'">Voltar</button>
-            </div>
         </div>
     </div>
-
-
-
-
+    <div id="TimelineDiv">
+        <div id="Botoes">
+            <button id="botao1914">1914 </button>
+            <button id="botao1920">1920 </button>
+            <button id="botao1936">1936 </button>
+        </div>
     </div>
+    </div>
+    <img src="flags/ALEMANHA1914.png" id="imgAlemanha" style="display: none;">
+    <img src="flags/REINOUNIDO.png" id="imgReinoUnido" style="display: none;">
 </body>
 
 </html>

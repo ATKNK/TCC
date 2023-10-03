@@ -35,12 +35,6 @@
         border-left: 0;
     }
     
-    #Botoes {
-        bottom: auto;
-        border: solid;
-        width: 200px;
-    }
-    
     #DivAno {
         text-align: center;
         font-size: x-large;
@@ -88,6 +82,13 @@
         display: block;
     }
     
-    div {
-        text-align: right;
+    #TimelineDiv {
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    
+    #Botoes {
+        bottom: auto;
+        align-items: center;
     }
