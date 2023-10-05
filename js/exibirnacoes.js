@@ -12,13 +12,16 @@ document.addEventListener("DOMContentLoaded", function() {
     const trocarReinoUnido = document.getElementById("trocarReinoUnido");
     const imgReinoUnido = "flags/REINOUNIDO.png";
 
+    const trocarAlemanha1920 = document.getElementById("trocarAlemanha1920");
+    const imgAlemanha1920 = "flags/ALEMANHA1920.png";
+
 
 
     trocarAlemanha.addEventListener("click", function() {
         bandeira.src = imgAlemanha;
         console.log("ALEMANHA TROCADA");
         Nome_Pais.innerHTML = "Império Alemão";
-        Governo_Pais.innerHTML = "Monarquia Absolutista";
+        Governo_Pais.innerHTML = "Monarquia Parlamentarista Federal";
         Capital_Pais.innerHTML = "Berlim";
     });
 
@@ -28,5 +31,13 @@ document.addEventListener("DOMContentLoaded", function() {
         Nome_Pais.innerHTML = "Reino Unido";
         Governo_Pais.innerHTML = "Monarquia Parlamentarista";
         Capital_Pais.innerHTML = "Londres"
+    });
+
+    trocarAlemanha1920.addEventListener("click", function() {
+        bandeira.src = imgAlemanha1920;
+        console.log("WEIMAR TROCADA");
+        Nome_Pais.innerHTML = "República de Weimar";
+        Governo_Pais.innerHTML = "República";
+        Capital_Pais.innerHTML = "Berlim";
     });
 });
