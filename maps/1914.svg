@@ -650,8 +650,7 @@
     </a>
     <a
        id="reino_unido"
-       target="_blank"
-       href="https://www.britannica.com/place/British-Empire"
+      onclick="reinounidofuncao()"
        title="Reino Unido">
       <g
          id="REINO_UNIDO">
@@ -889,6 +888,7 @@
          style="fill:#4d4d4d;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
     </g>
     <a
+      onclick="alemanhafuncao()"
        id="ALEMANHA">
       <g
          id="ALEMANHA_GRUPO">
@@ -914,12 +914,6 @@
         </path>
       </g>
     </a>
-    <path
-       id="ILHA_TESTE"
-       d="m 61.525133,172.29454 0.643118,1.28624 1.204383,0.0701 0.643118,-0.19874 0.514493,0.36248 0.596345,-0.57295 1.064068,-0.25725 0.210475,-0.79513 -0.491109,-0.97052 -1.122531,0.12862 -0.502803,-0.22216 -0.491106,0.17539 -1.075759,-0.19878 -0.619733,0.43265 -0.02339,0.30402 -0.643116,0.0702 z"
-       style="fill:#ff00ff;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1">
-      <title
-         id="title224">Isto é um teste</title>
-    </path>
+   <script href="../js/teste.js"></script>
   </g>
 </svg>
