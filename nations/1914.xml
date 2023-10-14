@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nacoes>
+    <nacao>
+        <nomeNacao>Principado da Albânia</nomeNacao>
+        <governoNacao>Monarquia Constitucional</governoNacao>
+        <capitalNacao>Durrës</capitalNacao>
+        <bandeiraNacao>flags/ALBANIA1914.png</bandeiraNacao>
+    </nacao>
+    <nacao>
+        <nomeNacao>Império Alemão</nomeNacao>
+        <governoNacao>Monarquia Parlamentarista Federal</governoNacao>
+        <capitalNacao>Berlim</capitalNacao>
+        <bandeiraNacao>flags/ALEMANHA1914.png</bandeiraNacao>
+    </nacao>
+    <nacao>
+        <nomeNacao>Áustria-Hungria</nomeNacao>
+        <governoNacao>Monarquia Parlamentarista Dual</governoNacao>
+        <capitalNacao>Viena e Budapeste</capitalNacao>
+        <bandeiraNacao>flags/AUSTRAHUNGRIA.png</bandeiraNacao>
+    </nacao>
+    <nacao>
+        <nomeNacao>Bélgica</nomeNacao>
+        <governoNacao>Monarquia Parlamentarista</governoNacao>
+        <capitalNacao>Bruxelas</capitalNacao>
+        <bandeiraNacao>flags/BELGICA.png</bandeiraNacao>
+    </nacao>
+    <nacao>
+        <nomeNacao>Tsarado da Bulgária</nomeNacao>
+        <governoNacao>Monarquia Parlamentarista Unitária</governoNacao>
+        <capitalNacao>Sófia</capitalNacao>
+        <bandeiraNacao>flags/BULGARIA.png</bandeiraNacao>
+    </nacao>
+    <nacao>
+        <nomeNacao>Dinamarca</nomeNacao>
+        <governoNacao>Monarquia Parlamentarista</governoNacao>
+        <capitalNacao>Copenhague</capitalNacao>
+        <bandeiraNacao>flags/DINAMARCA.png</bandeiraNacao>
+    </nacao>
+    <nacao>
+        <nomeNacao>Reino da Espanha</nomeNacao>
+        <governoNacao>Monarquia Parlamentarista Unitária</governoNacao>
+        <capitalNacao>Madrid</capitalNacao>
+        <bandeiraNacao>flags/ESPANHA1914.png</bandeiraNacao>
+    </nacao>
+    <nacao>
+        <nomeNacao>França</nomeNacao>
+        <governoNacao>República Parlamentarista Unitária</governoNacao>
+        <capitalNacao>Paris</capitalNacao>
+        <bandeiraNacao>flags/FRANÇA.png</bandeiraNacao>
+    </nacao>
+    <nacao>
+        <nomeNacao>Reino da Grécia</nomeNacao>
+        <governoNacao>Monarquia Parlamentarista Unitária</governoNacao>
+        <capitalNacao>Berlim</capitalNacao>
+        <bandeiraNacao>flags/GRECIA1914.png</bandeiraNacao>
+    </nacao>
+    <nacao>
+        <nomeNacao>Países Baixos</nomeNacao>
+        <governoNacao>Monarquia Parlamentarista</governoNacao>
+        <capitalNacao>Amesterdã</capitalNacao>
+        <bandeiraNacao>flags/HOLANDA1914.png</bandeiraNacao>
+    </nacao>
+    <nacao>
+        <nomeNacao>Reino da Itália</nomeNacao>
+        <governoNacao>Monarquia Constitucional</governoNacao>
+        <capitalNacao>Roma</capitalNacao>
+        <bandeiraNacao>flags/ITALIA1914.png</bandeiraNacao>
+    </nacao>
+    <nacao>
+        <nomeNacao>Luxemburgo</nomeNacao>
+        <governoNacao>Monarquia Parlamentarista Unitária</governoNacao>
+        <capitalNacao>Cidade de Luxemburgo</capitalNacao>
+        <bandeiraNacao>flags/LUXEMBURGO.png</bandeiraNacao>
+    </nacao>
+    <nacao>
+        <nomeNacao>Reino de Montenegro</nomeNacao>
+        <governoNacao>Monarquia Parlamentarista Federal</governoNacao>
+        <capitalNacao>Cetinje</capitalNacao>
+        <bandeiraNacao>flags/MONTENEGRO1914.png</bandeiraNacao>
+    </nacao>
+    <nacao>
+        <nomeNacao>Noruega</nomeNacao>
+        <governoNacao>Monarquia Parlamentarista</governoNacao>
+        <capitalNacao>Oslo</capitalNacao>
+        <bandeiraNacao>flags/NORUEGA.png</bandeiraNacao>
+    </nacao>
+    <nacao>
+        <nomeNacao>Império Otomano</nomeNacao>
+        <governoNacao>Califado sob Triunvirato Ditatorial</governoNacao>
+        <capitalNacao>Constantinopla (Istanbul)</capitalNacao>
+        <bandeiraNacao>flags/OTOMANOS.png</bandeiraNacao>
+    </nacao>
+    <nacao>
+        <nomeNacao>Portugal</nomeNacao>
+        <governoNacao>República Constitucional</governoNacao>
+        <capitalNacao>Lisboa</capitalNacao>
+        <bandeiraNacao>flags/PORTUGAL.png</bandeiraNacao>
+    </nacao>
+    <nacao>
+        <nomeNacao>Reino Unido</nomeNacao>
+        <governoNacao>Monarquia Parlamentarista Unitária</governoNacao>
+        <capitalNacao>Londres</capitalNacao>
+        <bandeiraNacao>flags/REINOUNIDO.png</bandeiraNacao>
+    </nacao>
+    <nacao>
+        <nomeNacao>Reino da Romênia</nomeNacao>
+        <governoNacao>Monarquia Parlamentarista Unitária</governoNacao>
+        <capitalNacao>Bucareste</capitalNacao>
+        <bandeiraNacao>flags/ROMENIA1914.png</bandeiraNacao>
+    </nacao>
+    <nacao>
+        <nomeNacao>Império Russo</nomeNacao>
+        <governoNacao>Monarquia Semi-Constitucional Unitária</governoNacao>
+        <capitalNacao>São Petersburgo</capitalNacao>
+        <bandeiraNacao>flags/RUSSIA1914.png</bandeiraNacao>
+    </nacao>
+    <nacao>
+        <nomeNacao>Reino da Sérvia</nomeNacao>
+        <governoNacao>Monarquia Parlamentarista Unitária</governoNacao>
+        <capitalNacao>Belgrado</capitalNacao>
+        <bandeiraNacao>flags/SERVIA1914.png</bandeiraNacao>
+    </nacao>
+    <nacao>
+        <nomeNacao>Suécia</nomeNacao>
+        <governoNacao>Monarquia Parlamentarista Unitária</governoNacao>
+        <capitalNacao>Berlim</capitalNacao>
+        <bandeiraNacao>flags/SUECIA.png</bandeiraNacao>
+    </nacao>
+    <nacao>
+        <nomeNacao>Suíça</nomeNacao>
+        <governoNacao>República Federal</governoNacao>
+        <capitalNacao>Berna</capitalNacao>
+        <bandeiraNacao>flags/SUIÇA.png</bandeiraNacao>
+    </nacao>
+</nacoes>

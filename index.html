@@ -10,21 +10,14 @@
     <script src="js/alternarmapas.js"></script>
     <script src="js/exibirnacoes.js"></script>
     <script src="js/teste.js"></script>
+    <script src="js/testexml.js"></script>
 </head>
 
 <body>
     <h1>EuroXX Map</h1>
     <div id="main">
-        <div id="mapa">
-            <div id="mapa1914" style="display: block;">
-                <object data="maps/1914.svg" type="image/svg+xml"></object>
-            </div>
-            <div id="mapa1920" style="display: none;">
-                <object data="maps/1920.svg" type="image/svg+xml"></object>
-            </div>
-            <div id="mapa1936" style="display: none;">
-                <object data="maps/1936.svg" type="image/svg+xml"></object>
-            </div>
+        <div id="divmapa">
+                <object id="mapa" data="maps/1914.svg" type="image/svg+xml"></object>
         </div>
         <div id="PainelLateral">
 
@@ -35,15 +28,18 @@
                 <div id="DivBandeira">
                     <img src="" height="100px" id="bandeira">
                 </div>
-                <h2><span id="Nome_Pais">Clique em uma Nação</span></h2>
-                <p>Governo: <span id="Governo_Pais">-</span>
-                    <br> Capital: <span id="Capital_Pais">-</span>
+
+                <h2><span id="nome">Clique em uma Nação</span></h2>
+                <p>
+                Governo: <span id="governo">-</span><br> 
+                Capital: <span id="capital">-</span>
                 </p>
+
                 <button id="trocarAlemanha">Alemanha</button>
                 <button id="trocarReinoUnido">Reino Unido</button>
                 <button id="trocarAlemanha1920">Alemanha (1920)</button>
+                <button id="testexml">Testar o XML</button>
             </div>
-
         </div>
     </div>
     <div id="TimelineDiv">
