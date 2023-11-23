@@ -99,3 +99,7 @@ h1 {
     bottom: auto;
     align-items: center;
 }
+
+.slider {
+    width: 50%;
+}
