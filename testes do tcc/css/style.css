@@ -12,13 +12,13 @@
 }
 
 body {
-    background-color: rgb(245, 245, 245);
+    background-color: #fffef0;
     font-size: large;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 h1 {
     text-align: center;
-    font-family: 'Courier New', Courier, monospace;
 }
 
 #main {
@@ -28,11 +28,12 @@ h1 {
 }
 
 #PainelLateral {
-    background-color: gainsboro;
+    background-color: #E0C190;
     border: solid;
-    width: 300px;
+    width: 350px;
     justify-content: right;
     border-left: 0;
+    height: 501px;
 }
 
 #DivAno {
@@ -71,35 +72,50 @@ h1 {
     background-color: rgb(112, 128, 144)
 }
 
-#mapa1914 {
-    text-align: center;
-    display: block;
-    transition: all 4s ease-in-out;
-    border-bottom: -10;
-}
-
-#mapa1920 {
-    text-align: center;
-    display: block;
-    transition: all 4s ease-in-out;
-}
-
-#mapa1936 {
-    text-align: center;
-    display: block;
-}
-
 #TimelineDiv {
     justify-content: center;
     text-align: center;
     align-items: center;
 }
 
-#Botoes {
-    bottom: auto;
-    align-items: center;
-}
-
 .slider {
     width: 50%;
+}
+
+#Eventos{
+    overflow: auto;
+    overflow-y: scroll;
+}
+
+#DivTitulo{
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+#Evento_Titulo{
+    font-size: 105%;
+    font-weight: bold;
+}
+
+#DivLocal{
+    align-items: center;
+    padding-bottom: 5%;
+}
+
+#DivData{
+    padding-bottom: 7%;
+}
+
+#DivDesc{
+    text-align: justify;
+    overflow: hidden;
+    word-wrap: break-word;
+}
+
+#DivImg{
+    text-align: center;
+}
+
+#DivFonte{
+    bottom: 0;
 }
