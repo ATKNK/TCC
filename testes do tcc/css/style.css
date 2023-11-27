@@ -1,11 +1,3 @@
-.hidden {
-    display: none;
-}
-
-.visible {
-    display: block;
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -15,9 +7,16 @@ body {
     background-color: #fffef0;
     font-size: large;
     font-family: 'Courier New', Courier, monospace;
+    background-image: url("../img/fundo.png");
+    background-size:cover;
+    background-repeat: no-repeat;
 }
 
 h1 {
+    text-align: center;
+}
+
+#Subtitulo {
     text-align: center;
 }
 
@@ -34,6 +33,7 @@ h1 {
     justify-content: right;
     border-left: 0;
     height: 501px;
+    overflow-y: hidden;
 }
 
 #DivAno {
@@ -76,15 +76,39 @@ h1 {
     justify-content: center;
     text-align: center;
     align-items: center;
+    padding-top: 2%;
 }
 
 .slider {
     width: 50%;
+    display: inline;
+    background: url('../img/esfera.png');
 }
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    background: url('../img/esfera.png');
+    cursor: pointer;
+  }
+  
+
+.AnoRange{
+    list-style: none;
+    display: inline;
+    justify-items:flex-end;
+    font-size: larger;
+    font-weight: bolder;
+}
+    li{
+    position: relative;
+    float:inherit;
+    width: 90px;
+    display: inline;
+    }
 
 #Eventos{
-    overflow: auto;
-    overflow-y: scroll;
+    overflow-x: auto;
+    height: 250px;
 }
 
 #DivTitulo{
@@ -100,15 +124,18 @@ h1 {
 #DivLocal{
     align-items: center;
     padding-bottom: 5%;
+    text-align: center;
 }
 
 #DivData{
     padding-bottom: 7%;
+    text-align: center;
 }
 
 #DivDesc{
-    text-align: justify;
-    overflow: hidden;
+    text-align: left;
+    overflow-x: hidden;
+    overflow-y: auto;
     word-wrap: break-word;
 }
 
